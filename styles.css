@@ -1,0 +1,199 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: #000000;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+input{
+    margin-top: .2em;
+    margin-bottom: .2em;
+    width: 100%;
+    font-size: 1em;
+}
+#userLogin span{
+    margin-top: .2em;
+}
+#wrongPassword{
+    color: red;
+    text-align: center;
+    display: none;
+}
+#userLogin{
+    margin: auto;
+    width: 10em;
+    height: 10em;
+    margin-top: -4em;
+    margin-left: -5em;
+    overflow: hidden;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    display: inline-block;
+    color:#ffffff;
+    text-align: left;
+}
+#confirm{
+    text-align: center;
+    width: auto;
+    display: block;
+    margin: auto;
+}
+
+
+
+ #movingBallG{
+     display: none;
+     position:relative;
+     width:100%;
+     height:20px;
+ }
+
+.movingBallLineG{
+
+    position:absolute;
+    left:0;
+    top:8px;
+    height:4px;
+    width:100%;
+    background-color:#4F4F4F;
+}
+
+.movingBallG{
+
+    background-color:#ffffff;
+    position:absolute;
+    top:0;
+    left:100%;
+    margin-left: -0.5em;
+    width:1em;
+    height:1em;
+    -moz-border-radius:10px;
+    -moz-animation-name:bounce_movingBallG;
+    -moz-animation-duration:1.3s;
+    -moz-animation-iteration-count:infinite;
+    -moz-animation-direction:linear;
+    -webkit-border-radius:10px;
+    -webkit-animation-name:bounce_movingBallG;
+    -webkit-animation-duration:1.3s;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-direction:linear;
+    -ms-border-radius:10px;
+    -ms-animation-name:bounce_movingBallG;
+    -ms-animation-duration:1.3s;
+    -ms-animation-iteration-count:infinite;
+    -ms-animation-direction:linear;
+    -o-border-radius:10px;
+    -o-animation-name:bounce_movingBallG;
+    -o-animation-duration:1.3s;
+    -o-animation-iteration-count:infinite;
+    -o-animation-direction:linear;
+    border-radius:10px;
+    animation-name:bounce_movingBallG;
+    animation-duration:1.3s;
+    animation-iteration-count:infinite;
+    animation-direction:linear;
+}
+
+@-moz-keyframes bounce_movingBallG{
+    0%{
+        left:0;
+        margin-left:0;
+    }
+
+    50%{
+        left:100%;
+        margin-left:-1em;
+    }
+
+    100%{
+        left:0;
+        margin-left:0;
+    }
+
+}
+
+@-webkit-keyframes bounce_movingBallG{
+    0%{
+        left:0;
+        margin-left:0;
+    }
+
+    50%{
+        left:100%;
+        margin-left:-1em;
+    }
+
+    100%{
+        left:0;
+        margin-left:0;
+    }
+
+}
+
+@-ms-keyframes bounce_movingBallG{
+    0%{
+        left:0;
+        margin-left:0;
+    }
+
+    50%{
+        left:100%;
+        margin-left:-1em;
+    }
+
+    100%{
+        left:0;
+        margin-left:0;
+    }
+
+}
+
+@-o-keyframes bounce_movingBallG{
+    0%{
+        left:0;
+        margin-left:0;
+    }
+
+    50%{
+        left:100%;
+        margin-left:-1em;
+    }
+
+    100%{
+        left:0;
+        margin-left:0;
+    }
+
+}
+
+@keyframes bounce_movingBallG{
+    0%{
+        left:0;
+        margin-left:0;
+    }
+
+    50%{
+        left:100%;
+        margin-left:-1em;
+    }
+
+    100%{
+        left:0;
+        margin-left:0;
+    }
+
+}
+
+
